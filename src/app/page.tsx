@@ -333,7 +333,10 @@ export default function Home() {
       <footer className="mt-10 text-xs text-zinc-600">
         Built with Next.js + TypeScript. The agent's retrieval and booking pipeline is
         model-agnostic — plug in an LLM for open-ended questions, keep deterministic tools for
-        bookings. Demo data is in-memory.
+        bookings. Demo data is in-memory. ·{" "}
+        <a href="/data-policy" className="text-sky-500 hover:underline">
+          Data &amp; privacy policy
+        </a>
       </footer>
     </main>
   );
